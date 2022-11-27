@@ -45,3 +45,5 @@
     // logstash
     implementation 'net.logstash.logback:logstash-logback-encoder:7.2'
     
+    // jmx
+    implementation 'org.springframework:spring-jmx:2.0.8'
