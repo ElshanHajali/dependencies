@@ -2,12 +2,6 @@
     // jpa
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
-    // redis
-    implementation 'org.redisson:redisson:3.18.0'
-
-    // nimbus (jwt)
-    implementation 'com.nimbusds:nimbus-jose-jwt:9.25.6'
-
     // lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
@@ -29,6 +23,18 @@
     // lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+    
+    // security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    
+    // OAuth2 Resource server (for JWT - new version)
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.7.5'
+    
+    // redis
+    implementation 'org.redisson:redisson:3.18.0'
+
+    // nimbus (jwt)
+    implementation 'com.nimbusds:nimbus-jose-jwt:9.25.6'
     
     // actuator
     implementation 'org.springframework.boot:spring-boot-starter-actuator:3.0.0'
