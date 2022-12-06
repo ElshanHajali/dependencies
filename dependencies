@@ -45,6 +45,9 @@
     // Open Feign
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.1.4'
     
+    // RabbitMQ
+    implementation 'org.springframework.boot:spring-boot-starter-amqp:3.0.0'
+
     // prometheus
     implementation 'io.micrometer:micrometer-registry-prometheus:1.10.2'
     
