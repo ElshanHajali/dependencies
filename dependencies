@@ -1,4 +1,10 @@
 
+    // Boot
+    implementation 'org.springframework.boot:spring-boot-starter'
+    
+    // Test
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
     // jpa
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
