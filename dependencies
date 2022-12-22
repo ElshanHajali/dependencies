@@ -38,6 +38,8 @@
     
     // redis
     implementation 'org.redisson:redisson:3.18.0'
+    // 
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 
     // nimbus (jwt)
     implementation 'com.nimbusds:nimbus-jose-jwt:9.25.6'
