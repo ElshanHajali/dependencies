@@ -36,11 +36,8 @@
     // OAuth2 Resource server (for JWT - new version)
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.7.5'
     
-    // redis
+    // Redis
     implementation 'org.redisson:redisson:3.18.0'
-    // 
-    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
-    implementation 'redis.clients:jedis:2.8.0'
 
     // nimbus (jwt)
     implementation 'com.nimbusds:nimbus-jose-jwt:9.25.6'
